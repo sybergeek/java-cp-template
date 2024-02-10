@@ -9,5 +9,5 @@ Run on CMD (not on Powershell)
  ### To create input/output files on Mac/Linux
  Run on Terminal
 ```
-.\scripts\setup-env-mac-linux.sh
+./scripts/setup-env-mac-linux.sh
 ```
