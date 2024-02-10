@@ -154,17 +154,6 @@ public class IOLeetcode {
       bw.append(Constants.NEWLINE_CHAR);
     }
 
-    // public void printmap(Map<Object, Object> map) throws IOException {
-    //   bw.append(Constants.OPENING_BRACES_CHAR);
-    //   for (Object key: map.keySet()) {
-    //     printsp(key);
-    //     printsp(Constants.COLON_CHAR);
-    //     printsp(map.get(key));
-    //     println(Constants.COMMA_CHAR);
-    //   }
-    //   bw.append(Constants.CLOSING_BRACES_CHAR);
-    // }
-
     public void close() throws IOException {
       bw.close();
     }
